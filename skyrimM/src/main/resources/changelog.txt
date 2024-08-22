@@ -1,0 +1,1590 @@
+CHANGELOG
+
+>>BUILD 24.07.10
++ Added NEI support for Millstone
++ Added full German translation (by ToCraft).
++ Added beavers (with their spawn) and their drop (with its usage)
++ Added Janos Slynt's, Pycelle's and Melisandra's drop
++ Added new world type - Game of Thrones without fixed structures and characters, but with map.
++ Added one forgotten dirtPath:2 recipe
++ Added crafts for stone chest, sandstone chest and replaced the craft of reeds chest with new one.
++ Added a few achievements
+
+* Improved blizzards' drop, AI and alignment bonus
+* Improved mob selector for smoking, drinking, being robbed and being married.
+* Improved sound and volume of a few animals
+* Improved fixed structures system (more clear, optimized and stable)
+* Improved road-to-settlemen's-gate system
+* Improved roads & walls code
+* Improved GUI opening code
+* Improved unit costs
+* Improved dragon and wikigen command tab completion
+* Improved animal stats
+* Improved mobs' immune to frost/heat
+
+* Optimized dragons, giants and ice creatures
+* Optimized lots of client-size things
+
+* Reworked valyria region from scratch
+* Now not only ibben forts are fixed near waypoints
+* Silver, gold, valyrian steel and different gems now has fixed prices world-wide.
+* Midges and butterflies can't spawn in winter now
+* Biome visit achievements and achievement shields now require more biomes and achievements.
+* Moved zero coords of the world closer to Winterfell
+* Rebalanced +alignment values for killing
+* Returned sandstone chests, ice & obsidian stalactites to natural spawn
+* Returned targaryen items, lannicter brooch and silver hand brooch to natural drop
+* Returned back ifekevron skins
+
+* Fixed bug with Petyr Baelish and dagger. Now he can sell only one dagger, and if did this, won't drop dagger after death.
+* Fixed bug with uncraftable crafting tables
+* Fixed bug with lhazar spear crafting
+* Fixed bug with labradorite cracked bricks crafting
+* Fixed bug with North men spawning in Gift
+* Fixed bug with no craft ice spear, ice bricks
+* Fixed bug with shrykes', werewolves', ifekevrons' swimming ai.
+* Fixed different bugs related to mobs and their frost/heat immune
+* Fixed bug with dragon size
+* Fixed bug with broken title system
+* Fixed bug with caves under settelements
+* Fixed bug with no-effect fields in config
+* Fixed bug with arryn conquest spawnlist
+* Fixed bug with one stone wall
+* Fixed bug with uncraftable weirwood fence
+* Fixed bug with month name
+* Fixed bug with drown Euron Greyjoy and its soldiers
+* Fixed wrong names of waypoints (example: Servin's C. -> Cerwyn's C.)
+* Fixed very old bug with imflammable leaves
+* Fixed bug with Trystane Martell drop
+* Fixed bug with one broken command
+* Fixed bug with cargo cart
+* Fixed 2 bugs with granite structures
+
+- Removed a few unused blocks and items
+- Removed rice and cucumbers because of bugs
+- Removed double ibbinia wooden beams because of alternative
+
+>>BUILD 23.07.10
++ Added lots of forest biomes
++ Village generationg chunk selector is a config value now (check for the word "grid")
++ Added fortresses into spawning of essos free cities
+
++ Added thaumcraft stand support (no crash)
++ Added LOTR submods support (no crash in GUI) (you still must remove META-INF to enable general compatibility)
+
+* Children and girls now can't participate in dothraki skirmishes
+* Benjen Stark spawning without horse from spawn egg now
+* Manticores and red scorpions are bigger now
+* Remade all roads from scratch
+
+* Improved qarth & summer colonies
+* Improved waypoints with ruins: now ruins are NEAR and player won't have problems with getting out of
+* Improved biome music code
+* Improved map colors
+* Improved tree sets in structures
+* Improved King's Landing (added second gate to the east)
+* Improved road system to enable pixel coords like 1.542434
+* Improved Three Towers waypoint
+* Improved buttons' text color
+* Improved Five Forts wall and tower
+* Imporved map accuracy
+* Improved Victarion camp
+* Improved golden camps
+* Improved westeros towers
+* Improved asshai tower
+* Improved quests
+* Improved code of killing ice creatures (now all spears of needed materials are ok)
+* Increased village spawn
+* Increased ice creatures spawn
+* Reduced chance of baobab plains in dothraki sea
+
+* Optimized structures' code
+* Optimized code of fixed structures
+
++ Fixed bug with seasons mechanics on server-side
+* Fixed bug with mod data generator
+* Fixed bug with Asshai path size
+* Fixed bugs with bandit names
+* Fixed bugs in english lang file
+* Fixed bugs in chinese lang file
+* Fixed bugs with gui textures
+* Fixed bug with giant skins
+* Fixed bug with English speechbanks
+* Fixed bug with quotes
+* Fixed bug with not rare baobabs in sothoryos
+* Fixed bug with wrong water color
+* Fixed bug with too rare villages in southern essos
+* Fixed bug with wrong roads in a few settlements
+* Fixed bug with shifted Sothoryos pyramid
+* Fixed bug with dirt path in Asshai
+* Fixed bug with huge trees with broken generation
+* Fixed critical bug caused by disappeared meta-info and broken coremod (horses, fences, etc)
+* Fixed potential bug caused by growing Desert Trees at the top limit of the world (256)
+* FIxed potential bug with rare thenn spawning
+* Fixed bug with glowing titles, that should be visible only during the night
+* Fixed bug with always english rank achievements in the chat
+* Fixed bug with rare intersection of random and fixed villages (bigger check radius)
+
+- Removed too giant oaks from forests
+
+>>BUILD 23.05.11
++ Now conquested enemy waypoints are red on the map
+
+* Meereen wp, city and pyramid were moved to be easily found from point.
+
+* Improved ghiscar pyramids (gameplay isn't broken now)
+* Improved crossbowers' AI
+* Improved wetwood biome
+* Improved translations
+
+* Fixed bug with map
+* Fixed potential bug caused by duplicated lines in translation files
+* Fixed bug with concrete and concrete powder mechanics
+* Fixed bug with gui shift when using NEI + drinking potion
+* Fixeg bug with prostitute skins
+* Fixed bug with sword of command rendering
+* Fixed bug with point rendering
+* Fixed bug with archer and crossbower drops
+* Fixed bug with Jaqen Quest
+* Fixed bug with ibben smith's entries
+* Fixed bug with berserker weapons
+* Fixed bug with wrong farmer units in riverlands
+* Fixed bug with capes view in multiplayer
+
+>>BUILD 23.03.25
+* Experimental: Multithreading in world decorator
+* Optimized Essos and Westeros structures
+* Readded compatibility with Weather 2 AGAIN
+
+* Improved Database Generator (now only command is needed)
+* Improved Ice wall and Ibbenese wall
+* Improved valyrian roads
+
+* Fixed a few bugs in translations
+? Fixed something linked to materials
+
+>>BUILD 23.02.14
+* Improved Russian, Ukrainian, English translations
+* Improved weapon & armor durability because of arguments of players
+
+* Improved structure of lang files. Now it's much easier to finish partial translations of the mod
+
+* Fixed bug with smithing prices and alloy steel smithing
+* Fixed bug with HUGE bug, that allowed us to get 60000+ money from lhazar brewer
+* Fixed bug with wrong rep required by lhazar smith
+* Fixed a few crashes linked to null pointers.
+
+>>BUILD 23.02.10
+* Fixed crash in altitude biomes linked to season changes
+* Fixed wrong info in database generator
+* Fixed bug with untranslated labels
+
+>>BUILD 23.02.02
++ Added walrus lard and elephant meat. Now killing walruses, mammoths and elephants is more useful.
++ Added bronze chain armor and valyrian chain armor.
++ Added bronze nugget and iron nugget.
++ Added all the new items to the chest contents or trade entries.
++ Added werewolf sounds
++ Added new Massy biome, and renamed old to the "Massy Hills"
+
+* Improved Russian & English translations
+* Improved the wearing of levymans
+* Improved the craft of valyrian armor. Now the armor is more valuable.
+* Improved Blizzards' drops: 2-3 valyrian powders & 1 nugget per mob.
+* Improved biome tree sets. Now no trees are available from creative only. Every tree can be found in the world.
+* Improved database generator
+
+* Optimized Seasons mechanics. 8x faster and 8x more stable (proved by maths expectation and variance)
+* Optimized lots of places with enum maps
+
+* Fixed bug with mammoth drops
+* Fixed bug with rare walruses in cold coast
+* Fixed a few bugs linked with wrongly selected season for the biome
+* Fixed bug with grey fog around the shadows
+* Fixed bug that made Red Clay the most rare mineral in the world
+* Fixed bug with low number of ores in Iron Islands' Hills
+* Fixed bug with elephants in Dorne
+* Fixed bug with transparent pixel on the map
+* Fixed bug with a new Essos waypoints
+
+* Moved water effects from Ulthos to Yeen
+
+- Removed Dorne Valley (no differences from Dorne)
+- Removed item called valyrian mail, because new armor replaced that
+
+>>BUILD 23.01.04
+* Optimization
+* Added more random structures
+* Improved dragonstone biome
+* Improved chest contents and trade entries
+* Improved GUI
+* Improved village paths
+* Fixed bug with disappearing Dorne villages
+* Fixed bug with trapdoors in structures, that were crashing the game
+* Fixed bug with wrong titles that shouldn't exist
+* Fixed bug with GOTAPI$setClientMapImage
+* Fixed bug with Yi Ti bombardier, having speed 1.1 instead of 1.4 while attacking
+
+>>BUILD 22.09.12
++ Added new hill biomes for the Near Essos
++ Added Lorath Maze biome
+* Reworked all the free cities biomes + Ghiscar & Qarth
+
+* Improved colored hair of a few essos factions
+* Improved recipes. Lots of recipes were moved to vanilla table
+* Improved Ibbenese Wall
+* Improved faction relations
+* Improved essos weapon textures
+
+* Fixed bug with Qarkash location
+* Fixed bug with volantis, north table
+* Fixed bug with wrong recipes
+* Fixed bug with lots of grass near fixed towns
+* Fixed a few typos in ukrainian translation
+
+>>BUILD 22.08.27
++ Added GOT API (got.common.util.GOTAPI.java)
++ Added full French translation (prod. Agripas)
+
+* Improved Ukrainian translation of Yi Ti names
+
+* Fixed bug with GOT Mod Updater
+
+- Removed GOTCommander
+
+>>BUILD 22.08.25
+* Fixed bug that removed The Wall
+
+* Improved GUI (factions, menu, barrel)
+* Improved Essos banner textures. Not only colors, but symbols also were changed.
+* Improved Essos shield textures.
+* Improved crafting textures
+* Improved name banks
+
+>>BUILD 22.08.19
+* Remade Ulthos from scratch
+* Greatly improved Sothoryos
+* Greatly improved Ukrainian translation (prod. Octobrine)
+* Greatly Improved Far East map, improved biome colors
+* Greatly Improved ru & uk lore books (prod. Octobrine)
++ Added new Mossovy, Sothoryos & Ulthos waypoints, achievements, biomes
++ Added new female skins
++ Added more miners, goldsmiths, florists
++ Added Shraik
+
+* Improved a few spheres of influence
+* Improved targaryen armor
+* Improved aegon helmet
+* Improved stats of ifekevrons and stone men
+* Improved summer villages
+* Improved spheres of influence
+* Improved and unlocked database generator
+* Improved Mossovy Sopkas
+* Improved King Spears biome
+* Improved map (more accurate country borders)
+* Improved trade entries
+
+* Recoded lots of NPC: now they can be women
+* Recoded biomes: now ArrayLists instead of Arrays needed
+
+* Fixed bug with white walkers attack ai
+* Fixed bug with 2 names
+* Fixed bug with one westeros female name
+* Fixed bug with Si Qo Gate
+* Fixed freeze while F3 in ocean
+* Fixed bug with stolen items info
+* Fixed bug with russian-speaking Illyrio in english translation
+
+- Removed Ulos biome
+- Removed hunters and greengrocers (no difference, because farmers and butchers exist)
+
+>>BUILD 22.07.10
++ Added labradorite set of blocks
++ Added "kill mob" type of quests
++ Added "kill player" type of quests
++ Added lots of achievements
++ Added new info about silver weapon
++ Added new ocean types
+
+* Improved Ukrainian, Russian, English translations
+* Improved map texture
+* Improved mechanics of stone men, their skins
+* Improved localization icon texture
+* Improved a few armor & weapon textures
+* Improved yellow banners' textures
+* Improved workbench textures, recipes
+* Improved prices for valuable items
+* Improved chest contents in all the world
+* Improved andesite, rhyolite & basalt sets textures
+* Improved Asshai City, improved a few Asshai structures
+* Improved Asshai landspcape
+* Improved tramp spawning
+* Improved sothoryos virus mechanics
+
+* Changed the order of menu icons
+* Changed faction colors due to their colors of banner, table, etc.
+* Changed werewolf stats
+* Changed relation between Reach and Westerlands//Crownlands
+* Changed armor stats
+* Changed unpledge sound to amogus impostor sound
+* Changed some waypoint regions because of players' complaints. Essos wp can be unlocked in Kings Landing; Sothoryos - Ghiscar; Ulthos - Asshai; Ibben - Essos; Summer Islands - Sothoryos.
+* Changed standard wight armor (for egg)
+
+* Optimized client tick handler
+
+* Fixed 33 bugs with bottom table textures
+* Fixed bug with ban of vanilla enchanting
+* Fixed bug with hostile peaceful mobs
+* Fixed bug with furnace GUI
+* Fixed bug with wrong chest contents
+* Fixed bug with Loras Tyrell
+* Fixed bug with 25% of spawning a wrong structure at the few waypoints
+* Fixed bug with slaves speechbank
+* Fixed bug with towers in asshai
+* Fixed bug with wildling head slot
+* Fixed bug with inability to escape nausea in Asshai
+
+- Removed Ibben Sea biome, because it lost its difference after seasons update
+- Removed Carnotite set of blocks, because it turned out that it was uran ore
+
+>>BUILD 22.06.06
++ Added full Polish edition (lore, speech, names, quests: prod. Axel)
++ Added strict title rules, as in the LOTR
++ Added min Y limit for waypoint creation, as in the LOTR
++ Added fellowship creation settings, as in the LOTR
++ Returned alignment zones feature
+
+* Improved font pack, now with support of extended Latin & Cyrillic alphabets.
++ Improved cold weapon, some bugs and strange stats can be fixed.
+
+* Fixed bug with saving level data
+* Fixed bug with road near Bronze Gate & Sarsfield
+* Fixed bug with towers quantity near "Three Towers" waypoint
+
+>>BUILD 22.05.11
++ Recreated Polish translation (prod. Axel Snow)
+
+* Improved 2nd Tyrosh male skin
+* Improved stats of Joffrey's Crossbow
+
+* Fixed bug with Essos & Dorne fort walls upon the road
+* Fixed bug with Wyl & Hayford road
+* Fixed bug with Beric Dayne spawning
+* Fixed bug with chance of double Beric Dondarrion's drop
+* Fixed bug with hillmen villages
+* Fixed bug with crash caused by rhino riders
+* Fixed bug with Mossovy Forts & Villages
+* Fixed bug with desert scorpions instead of jungle scorpions spawning in tropical forests
+* Fixed potential bugs, caused by "legendary" mercenaries
+* Returned black roofs to the Dorne
+
+>>BUILD 22.04.03
+* Improved ukrainian translation (prod. DDPAT Knife Series)
+* Fixed bug with anvil texture
+* Fixed bug with agressive mobs AI
+
+>>BUILD 22.03.02
+* Greatly improved the Ice Wall and the Yi Ti Wall
+* Greatly improved all the banners in the game (prod. Hummel009)
++ Added ruined wall castles
++ Added fixed castles in mountain biomes
++ Added Asshai Shield
++ Added feminized ranks
++ Added a config option for maximum fellowship size
++ Added a config option to tune how often the mod clears the playerdata cache for offline players' data
++ Added new fixed locations, ruines in general. Now 99% of waypoints have fixed structure.
++ Added not-legendary longsword and greatsword
++ Added config for snowy leaves
+
+* Improved sword textures
+* Improved seasonal-based plants in biomes
+* Improved Craster's Barn and wifes' spawning
+* Improved Craster skin
+* Improved Samwell Tarly skin
+* Improved Ghiscar Pit
+* Improved village spawning
+* Improved Petyr Baelish's brothel and Tobho Mott's smithy
+* Improved Red Castle
+* Improved fellowships GUI to be compatible with big UI scale
+* Improved fellowship invitation mechanics
+* Improved all translations
+* Improved iron bank texture (prod. Hummel009)
+* Improved tool & weapon stats
+* Improved prostitute names & skins
+* Improved ranks
+* Improved view of some too elite unrealistic shields
+
+* Optimized and recoded all the westeros structures
+* Optimized the performance penalty from loading large fellowships upon player login
+* Optimized NPCs checking for players with their miniquests
+* Optimized rendering code
+
+* Fixed bug with factions gui
+* Fixed bug with chat achievements
+* Fixed bug with frost damaging gift legendary mobs
+* Fixed bug with goldsmithes in westeros
+* Fixed bug with essos children not spawning in houses
+* Fixed bug with villages in the villages
+* Fixed bug with unremovable fellowship users after changing their nickname
+* Fixed bug with joining disbanded fellowships
+* Fixed bug with not protected food near banner
+* Fixed bug with farmers
+* Fixed crash in Stepstones
+* Fixed 5 minor bugs (thanks to Stalker Kir)
+* Fixed 7 minor bugs (thanks to VVVIP2)
+* Fixed bug with shields GUI
+* Fixed bug with smithing
+
+>>BUILD 22.01.26
++ Added full Ukrainian edition (lore, speech, names, quests: prod. DDPAT Knife Series)
++ Added full Turkish edition (lore, speech, names, quests: prod. Ness)
+
+* Recoded all the flat biome system
+* Reworked all the speechbank system
+* Great Texture Update (armor sets, shields, capes and banners: prod. Hummel009)
+
++ Added rice and cucumbers
++ Added riders to natural spawn
++ Added Moribald Chester
++ Added 4 waypoints
++ Added new Jogos Nhai units
++ Added Jogos Nhai banner
++ Added new Hardhome
++ Added skirling pass as a hidden road in mountains
++ Added villages and houses for wildling, thenn and north hillmen
++ Added random corn plants spawning
++ Added random structures
++ Added Tugar Khan
++ Added Hojtbaatar waypoint
++ Added Jogos Nhai armor
++ Added Tugar Khan achievement
++ Added dark variants of scrap trader and thief
+
+* Improved hillmen villages
+* Improved essos structures
+* Improved roads
+* Improved guards: sync between Essos and Westeros
+* Improved Yi Ti Roads
+* Improved almost all biomes
+* Improved summer islands' strscans
+* Improved white walkers attack AI
+* Improved massy and cracklaw
+* Improved forests and mountains
+* Improved spawning
+* Improved Bu Gai Quest
+* Improved structures generator
+* Improved wall gate
+
+* Optimized iron bank code
+
+* Fixed exactly 100 bugs in gameplay. Thanks to VVVIP2 for this challenge.
+* Fixed bug with map screen sometimes opening onto empty sea at integer max value coordinates
+* Fixed bug with FT in bed
+* Fixed bug with sothoryos sarbacaners
+* Fixed bug with birds
+* Fixed bug with capes and shields
+* Fixed bug with unsmeltery-NEI compatibility
+* Fixed bug with riders without horse armor
+* Fixed bug with horses in houses
+* Fixed bug with Twins
+* Fixed bug with crashing removed biomes
+* Fixed bug with Yi Ti border
+* Fixed bug with attack
+* Fixed bug with village spawning
+* Fixed bug with scorpion drop
+* Fixed bug with iron bank
+* Fixed bug with alchemist skin
+* Fixed bug with speech and chat
+* Fixed bug with structures of Mossovy
+* Fixed bug with sandstone in Westeros
+* Fixed bug with Daenerys Targaryen spawning
+* Fixed bug with Yi Ti cities
+* Fixed bug with valyrian smelting
+
+- Removed HD banners
+- Removed Skirling pass as a biome
+- Removed corn fields
+- Removed Kitra's achievement
+- Removed Kitra
+- Removed Kitra's Camp waypoint
+- Removed 28 technical biomes
+- Removed camps and tents of wildling, thenn and north hillmen
+
+>>BUILD 21.12.01
+* Reworked Mossovy. Added table, new mobs, structures, villages and fixed genstructures.
+* Reworked economics. New gold, silver and valyrian prices. New prices for all items made of these materials
+* Reworked units, their prices and armor stats. Balance everywhere!
+* Reworked attitude zones, that work in a different way during seasonal changes
++ Added ability to disable fixed structures and legendary characters. Useful for those, who wants to build your own places.
++ Added walls and coverage for the fixed towns!
++ Added levymans, levyman-archers and soldier-archers to Essos
++ Added fixed structures (Stygai, Mossovia hills, etc)
++ Added info about weapon, that can kill walkers or wights
++ Added new speechbanks
++ Added Ulos biome
++ Added new legendary swords into drops of characters
++ Added nomad armor and crafting tables + their support in NEI
++ Added Yi Ti frontiers and crossbowers
++ Added Asshai & Mossovy Banners
++ Added random villages in gift
++ Added new skins for Free Cities
++ Added septon, red and ironborn priests
++ Added gates in the Wall
++ Added Great Yi Ti Wall
+
++ Enabled vanilla brewing without config
+
+* Improved Asshai mountains
+* Improved valyrian spears. Now can kill walkers and wights while is thrown
+* Improved gift mobs
+* Improved white walker skin
+* Improved children attack ai
+* Improved roads in Yi Ti and Asshai
+* Improved a lot of biomes
+* Improved forests
+* Improved seasonal changes
+* Improved faction relations
+* Improved faction, egg & structure colors
+* Improved russian translation
+* Improved chinese translation
+* Improved trade entries
+* Improved Shadow Wasteland
+* Improved season changes in mountains (added attitude zones)
+* Improved chest contents and trade entries
+* Improved the gate connection algorithm
+* Improved armor textures
+* Improved unit price balance
+* Improved mossovy witcher balance of stats
+
+* Fixed bug with spear rendering
+* Fixed bug with asshai chandeliers
+* Fixed bug with mob weapons
+* Fixed bug with Yeen and Asshai weather
+* Fixed bug with hostile mob spawning
+* Fixed crush caused by unsmelting results in NEI
+* Fixed jukeboxes not being classified under the 'Containers' banner permission
+* Fixed the chisel text color algorithm failing for blocks with connected textures
+* Fixed chisel text color not respecting resource pack reloads
+* Fixed oddment collectors' smithing mischief being able to alter the formatting codes in an item name
+* Fixed being able to open mob spawner chests in ruins and bypass the mob spawn by right-clicking the chest with a pouch
+* Fixed bug with flicking sky in barrows
+* Fixed bug with wraiths' lightning bolts
+* Fixed bug with aramant, fotinia, flax, fern and plantain generation
+* Fixed bug with saplings
+* Fixed bug with mount armor
+* Fixed bug with russian translation
+* Fixed bug with aramant
+* Fixed bug with shields/capes GUI
+* Fixed bug with Ibben villages
+
+- Removed Shadow Wasteland
+- Removed Ghiscar Captain
+- Removed Ironborn Corsair
+- Removed levyman riders from units
+
+>>BUILD 21.10.15
++ ADDED SEASONS
++ Added new money system
++ Added new banners
++ Added brooches
++ Added walking stick
++ Added westeros goldsmithes
++ Added NEI Integrator for all mod's recipes. Now you don't need GOT NEI Handler, everything is built-in.
++ Added partial compatibility with LOTR Mod
++ Added full compatibility with Weather 2
++ Added new Banner Protection settings
++ Added thiefs and their quest.
++ Added new anvil mechanic (engraving)
++ Added Yi Ti capes
++ Added Cloak of the Royal Guard
++ Added Helm of Aegor Rivers
++ Added Victarion's Helmet
++ Added Ice shard
++ Added Armor of white walkers
++ Added Hoe of White Walkers (easter egg)
++ Added Cobalt blue
++ Added Cobalt ore
++ Added Alloy steel
++ Added Alloy steel block
++ Added Alloy steel tools
++ Added Alloy steel dagger
++ Added Alloy steel sword
++ Added Alloy steel halberd
++ Added Aeron Greyjoy
++ Added Areo Hotakh
++ Added Black Walder Frey
++ Added Bran Stark
++ Added Caitlin Stark
++ Added Daario Naharis
++ Added Daven Lannister
++ Added Sorrowful Edd
++ Added Herald Grafton
++ Added Gray Worm
++ Added Harmun
++ Added Khizdar zo Lorak
++ Added Lothar Frey
++ Added Luvin
++ Added Lisa Arryn
++ Added Maige Mormont
++ Added Missandeya
++ Added Myrcella Baratheon
++ Added Qyburn
++ Added Distributed mo Eraz
++ Added Rickon Stark
++ Added Robin Arryn
++ Added Rodrik Kassel
++ Added Samwell Tarly
++ Added Celisa Baratheon
++ Added Shiren Baratheon
++ Added Tommen Baratheon
++ Added Tristan Martell
++ Added Heavy Ice Sword
++ Added craft of ice sword and heavy ice sword
+
+* Now Cersei and Joffrey (should be killed by Reach legendary quests) will not cause minus reputation in Reach.
+
+* Improved map quality (Sothoryos and far Essos), powered by Iliamakar
+* Improved Stonemen: they have bigger damage.
+* Improved Wyvern: they have sound and they were optimized.
+* Improved Dorne textures.
+* Improved mob spawning.
+* Improved Qarth Sphere
+* Improved faction colors.
+* Improved prices of traders
+* Improved the texture of Dorn's armor
+* Improved the texture of the ice sword
+* Improved Jon Snow and Yohn Royce
+
+* Optimized banners.
+* Platform update.
+* Optimized traders.
+
+* Fixed bug with marrying goldsmithes
+* Fixed bug with transparent plantain
+* Fixed bug with Yi Ti names
+* Fixed bug with rhyolite slabs
+* Fixed bug with fort walls.
+* Fixed bug with guide screen text about sword and fire.
+* Fixed bug with unaligned Gerold Dayne.
+* Fixed bug with achievements.
+* Fixed bug with pouch.
+* Fixed bug with generation of clay
+* Fixed bug with boobs for female legendary characters
+
+- Removed Ice battleaxe
+
+>>BUILD 21.08.16
++ New waypoint system with dynamic travel time.
++ Added grappling hooks
++ Added Languages GUI
++ Added Catalpa trapdoor
++ Added new Lhazar with its mobs, structures, etc.
++ Added Asshai Spherebinder
++ Added possibility to change item name color using anvil and gem
++ Added three fixed structures
++ Added Ibben Mountains
++ Added new weather (sandstorm and ashy wind)
++ Added children and marry (RMB with golden ring) mechanics for all peaceful humans in the world.
++ Added full set of blocks made of labradorite
++ Added Partial Ukrainian Translation of the Mod (powered by DDPAT Knife Series)
+
+* Improved rock generating (like in 1.8).
+* Improved rock textures.
+* Improved wights: they save their armor, weapon and gender after death.
+* Improved spawn. Now player spawns in the Winterfell
+
+* Renamed Robinia to Ibbinia. It returned to Ibben and can be grown from a sapling.
+* Fixed bug with beacon
+* Fixed bug with pouch-chest GUI
+* Fixed bug with Summer Islands inhabitants' gender
+* Fixed bug with Dunstan Drumm
+* Fixed bug with Catalpa recipes
+* Fixed bug with huge Lhazar, Dothraki & Jogos Nhai spawn
+* Fixed bug with anvil GUI
+* Fixed bug with double dragon after waypoint.
+* Fixed bug with forests in New Gift
+* Fixed bug with Mossovy Waypoints
+* Fixed bug with some block names.
+* Fixed bug with nomad spawning
+
+- Removed old Lhazar.
+
+>>BUILD 21.06.01
++ Added Full German Edition of the Mod (powered by The Sword of the Morning & Minecraft_PiTo)
++ Added Full Chinese Edition of the Mod (powered by Hamma Baki & Roobimwbj)
++ Added Full English Edition of the Mod (powered by beautifulrobloxgirl3 & Hummel009)
+
++ Added Full Spain Translation of the Mod (powered by Hummel009 & IvanRussian15)
++ Added Full Portuguese Translation of the Mod (powered by Hummel009 & IvanRussian15)
++ Added Full French Translation of the Mod (powered by Hummel009 & IvanRussian15)
++ Added Full Italian Translation of the Mod (powered by Hummel009 & IvanRussian15)
++ Added Full Dutch Translation of the Mod (powered by Hummel009 & IvanRussian15 & Stampler)
++ Added Full Polish Translation of the Mod (powered by Hummel009 & IvanRussian15)
++ Added Partial Japanese Translation of the Mod (powered by Hummel009 & IvanRussian15)
++ Added Partial Turkish Translation of the Mod (powered by Hummel009 & IvanRussian15)
++ Added Partial Hungarian Translation of the Mod (powered by Hummel009 & IvanRussian15)
++ Added Partial Finnish Translation of the Mod (powered by Hummel009 & IvanRussian15)
++ Added Partial Serbian Translation of the Mod (powered by Hummel009 & IvanRussian15)
++ Added Partial Croatian Translation of the Mod (powered by Hummel009 & IvanRussian15)
+
++ Added Workbench GUI switcher (between vanilla table and faction table)
+
+* Fixed rare bug with Euron Greyjoy spawning
+* Edited GUI 2.0 to be compatible with GOT NEI
+* Fixed bug with Winterwell Weirwood
+* Fixed bug with Three-eyed Raven spawning
+
+>>BUILD 21.03.02
+* REPLACED SOME BRICK & ARMOR TEXTURES DUE TO COPYRIGHT ISSUE
+* Reduced and systematized legendary mobs' alignment points
++ Added burning arrows (can be crafted like poisoned arrow but sulfur instead of poison)
+
++ Added Harras Harlaw
++ Added Harys Swyft
++ Added Horton Redfort
++ Added Jonos Bracken
++ Added Leo Lefford
++ Added Leyton Hightower
++ Added Lyle Crakehall
++ Added Lyn Corbray
++ Added Mathis Rowan
++ Added Paxter Redwyne
++ Added Quenn Roxton
++ Added Quenten Banefort
++ Added Randyll Tarly
++ Added Rodrik Harlaw
++ Added Sebaston Farman
++ Added Selwyn Tarth
++ Added Tytos Brax
++ Added Tytos Blackwood
++ Added Forley Prester
++ Added Aurane Waters
++ Added Monford Velaryon
++ Added Kraznys Mo Nakloz
++ Added Garlan Tyrell
++ Added Dunstan Drumm
++ Added Harrold Hardyng
++ Added AndersYronwood
++ Added Addam Marbrand
++ Added Ardrian Celtigar
++ Added Anders Yronwood
++ Added Benjen Stark
++ Added Brenna Tarth
++ Added Doran Martell
++ Added Ebrose
++ Added Ellarya Sand
++ Added Gendry Baratheon
++ Added Illyrio Mopatis
++ Added Mace Tyrell
++ Added Mance Rayder
++ Added Margaery Tyrell
++ Added Sansa Stark
++ Added Thoros
++ Added Tormund
++ Added Xaro Xhoan Daxos
++ Added Ygritte
++ Added Ellarya Sand
+* Edited recipe: Arab Clothes recipes moved to Essos's faction tables
+* Edited recipe: Chain could be crafted on usual table.
+* Edited recipe: Essos blocks & weapon now can be crafted on Summer table too
+* Edited recipe: Westeros blocks & weapon now can be crafted on Hillmen & Gift tables too
+* Edited recipe: Wild Fire and fire pot could be crafted on tables of Asshai, Crownlands, Qarth and Yi Ti.
+* Edited hiring: now Ghiscar Unsullied can be sold only by Kraznys
+* Fixed bug with Commander (special thing only for coders)
+* Fixed bug with banners in Hardhome
+* Fixed bug with Server installation
+* Fixed bug with Summer trade entries
+* Fixed bug with ghiscar tents
+* Fixed bug with main banners' recipes
+* Fixed bug with miniquest tooMany speechbank
+* Fixed bug with thenn berserker size
+* Fixed bug with uncraftable westeros basalt bricks
+* Fixed bug with unnamed granite bricks crafted on Gift table using usual stone
+* Fixed bug with Russian translation
+* Dothraki and Jogos Nhai use poisoned arrows
+* Improved North Soldiers' common weapon
+* Improved North fauna
+* Improved Wildling Armor texture
+* Improved thenn berserker appearance
+* Optimized Mod Loading
+* Optimized Recipes code
+* Optimized Fellowships mechanic (especially for servers)
+* Renamed Black Andesite blocks into Westeros Basalt (rus)
+- Removed Night Watch's bow
+
+>>BUILD 20.12.09
+* Realistic spawning system: mobs no longer spawn in open space. NPC spawn only near waypoints with fixed structures and in random villages.
++ Added 200+ Achievements
++ Added Achievements Command
++ Added Isle of faces biome
++ Added weirwood and blocks made of it
++ Added new drop for sandor clegane
++ Added 2 fixed weirwoods (White Tree and Winterfell)
++ Added system of improved Sword RMB blocking
++ Added compatibility with LOTR Mod (small patch needed)
++ Added Plow Cart
++ Added concretes (1.12)
++ Added a few Sothoryos biomes
++ Added Melisandra with her quest
++ Partial ¸-fication of speechbanks and mini-quests
+* Improved labradorite texture
+* Improved mountains biomes
+* Improved Aurora Borealis
+* Improved quest contents and speech
+* Improved bartender speechbanks;
+* Improved copper textures (1.17)
+* Imorived bronze & tin textures (1.17 style)
+* Improved blocks' and items' codenames
+* Improved Yara's Weapon
+* Improved Russian, Chinese and English translations
+* Improved map
+* Fixed typo with wp descriptions (rus)
+* Fixed bug with Craster
+* Fixed bug with speech
+* Fixed bug with immortal Clegane
+* Fixed bug with North spawning
+* Fixed bug with trapdoor crafting
+* Fixed bug with Essos smithies
+* Fixed bug with immortal Robb Stark
+* Fixed bug with asshai towers
+* Fixed bug with asshai torches
+* Fixed bug with double slabs
+* Fixed bug with Pledge sound
+* Fixed bug with whore names
+* Fixed bug with sounds
+* Fixed bug with chat commands
+* Fixed bug with wildling speech
+* Fixed bug with tobho smithy
+* Fixed bug with towers
+* Fixed bug with workbenches
+* Fixed crash with barrow wraiths
+* Fixed bug with gaining alignment after pledge
+* Fixed bug with Summer Islands Table in Dothraki & Jogos Structures
+* Updated commander's banner method and added simplified banner registry
+- Removed Commander's methods that are getting non-public fields through Reflection helper. Use direct coding, as in the original Mod code
+
+>>BUILD 20.10.30
++ Added Pycelle (legendary maester)
++ Added Yara Greyjoy (legendary unit-trader)
++ Added Rickard Karstark (legendary unit-trader)
++ Added John Umber (legendary unit-trader)
++ Added Wyman Manderly (legendary unit-trader)
++ Added Varys (legendary quest)
++ Added Howland Reed (legendary quest)
++ Added Theon Greyjoy (has 2 lifes)
++ Added Lancel Lannister (has 2 lifes)
++ Added Alliser Thorne (legendary mini-boss)
++ Added Victarion Greyjoy (legendary mini-boss + drop)
++ Added Aemon Targaryen (legendary maester)
++ Added Beric Dayne (has legendary drop)
++ Added Victarion Greyjoy, his camp and waypoint in the Neck
++ Added Red Scorpion
++ Added new lore texts
++ Added block: Iron Bank Department
+* Improved Armor textures
+* Improved Robb Stark's skin
+* Improved Balon Greyjoy (legendary quest)
+* Improved Kevan Lannister (unit trading)
+* Improved spawn eggs colors; now eggs have dynamic ID instead of static
+* Improved structure spawners colors; now spawners have dynamic ID instead of static
+* Improved banner ids; now banners have dynamic ID instead of static
+
+>>BUILD 20.10.19
++ Added Cersei Lannister & her quest
++ Added Euron Greyjoy & deaf corsairs
++ Added Walder Frey & his special unit trade entries
++ Added Robb Stark with his drop
++ Added Jaime Lannister with his drop
++ Added Balon Greyjoy
++ Added Kevan Lannister
++ Added Roose Bolton with his drop
++ Added Ramsay Bolton & his quest
++ Added Silence
++ Added Red Castle
++ Added new waypoint
+* Improved Legendary Quest Mechanic: now they are given by characters immediately after reaching +100 alignment. Also, legendary quest can be taken only one time.
+* Improved Loras's, Jorah's AI
+* Improved AI NPC follow NPC
+* Improved & optimized rendering system
+* Improved Legendary Mob spawning
+* Improved Craster's Skin
+* Retextured blocks made from Granite & Diorite
+* Optimized Biome Decorator
+* Fixed bug with Targaryen Armor
+* Fixed bug with double Tyrion Lannister
+* Fixed bug with russian names of Andesite & Diorite Buttons & Pressure slabs
+* Fixed bug with Hodor AI
+* Fixed bug with dothraki horses
+- Removed Fast Quests Config
+* Twice reduced mob spawning
+
+>>BUILD 20.10.10
++ Added Carnotite
++ Added Tyrion Lannister and his quest
++ Added mount banner bearers
++ Added Beric Dondarrion's speechbank
+* Improved Dorne Armor
+* Improved legendary mobs' AI
+* Improved banner bearers' armor
+* Improved Iron Islands biome
+* Improved Mountains biomes
+* Improved deers
+* Improved Asshai staffs
+* Optimized Beric Dondarrion
+* Fixed bug with Sandor Clegane
+* Fixed bug with Wights
+* Fixed bug with Elks
+* Fixed bug with Mount GUI
+
+>>BUILD 20.09.28
++ Added Tywin Lannister (spawns at Casterly Rock) with drop: his armor, Oathkeeper & Widow Wail.
++ Added Alloy Forge recipe: Oathkeeper + Widow Wail = Ice
+* Fixed bug with map
+* Fixed bug with pledge
+* Fixed bug with horse armor rendering
+* Fixed bug with roads in Crownlands
+* Fixed bug with FT GUI
+* Fixed bug with legendary double drops
+* Improved Night Watch Castles
+
+>>BUILD 20.09.25
++ Added Great Ibbenese Wooden Wall
++ Added 260+ banners
++ Added Ibbenese crafting table with recipes
++ Added Ibben Colony Biome
++ Added Corn Field (biome variant)
++ Added Red Mesa Biome
++ Added cobblebrick
++ Added Capes GUI (identical to shields' one)
++ Added boss-meter to invasions
++ Added invasions command
++ Added unit leveling & experience
++ Added crafting to new trapdoors
++ Added Titles and their GUI
++ Added 35 Lore texts
+* Improved Qohor Smith Trade Entries
+* Improved Asshai names
+* Improved world generator
+* Improved Commander Library
+* Improved Faction code
+* Improved Fellowships', Factions', Shields' and Options' GUI (symmetry)
+* Improved cape texture
+* Improved gold, silver & valyrian ore generating
+* Improved mod architecture
+* Improved pouch-with-chest GUI
+* Improved Rhyolite block textures
+* Improved Chinese, Russian & English translations (up-to-date)
+* Optimized Playerdata
+* Optimized Mod Loading
+* Fixed bug with quests limit bank
+* Fixed bug with Wight-Giant
+* Fixed bug with waypoints
+* Fixed bug with Wildling Crafting
+* Fixed bug with structure & village spawning
+* Fixed bug with translations
+- Removed waste code without functions
+- Removed unused blocks & items (now NEI isn't littered with waste)
+- Removed unused assets
+
+>>BUILD 20.09.01
++ Unlocked Music Packs (like in LOTR)
++ GOTCommander Library (tool for submodding)
++ Added 5 Mossovy waypoints
++ Added Bloody Sea and it's coasts
++ Added Mossovy Marshes
++ Added Mossovy Sea
++ Added Mossovy Tundra
++ Added Smith's Scrolls
++ Added all trapdoors (one for every wood type)
++ Added more fixed hills
++ Added quicksand
+* Changed banner type limit (127 --> 32767);
+* Fixed Ibben speechbanks
+* Fixed Mammoths, Elephants, Rhinos attack speed
+* Fixed Sar-mell waypoint
+* Fixed Shields' GUI translations
+* Fixed bug with Hill-Tribes alignment
+* Fixed bugs with crafting recipes
+* Fixed flicking names of Yi Ti
+* Fixed stone debris in all hills
+* Improved Alloy Forge recipes
+* Improved Chinese translation
+* Improved Config file name (GOT.cfg)
+* Improved Death Deset
+* Improved Essos, Sothoryos & Ibben unit prices
+* Improved Iron Pike texture
+* Improved Music codenames, files and folders (/musicpacks)
+* Improved Russian, Chinese, English translation
+* Improved Sothoryos Jungle, Kanuka Forest, Sothoryos Jungle Edge, Green Hell.
+* Improved Sword-portal overlay
+* Improved Yi Ti & Summer Islands textures
+* Improved Yi Ti Soldier armor texture
+* Improved armor stats and balance
+* Now Sothoryos weapon can kill white walkers
+* Reduced FT Cooldown (10 m) - ONLY FOR NEW WORLDS.
+* Reduced Valyrian & Gold ore spawning
+* Returned & translated a few hidden blocks, items
+* Returned Valyrian powder, valyrian chisel and their recipes
+* Turned public fields into public
+
+>>BUILD 20.08.22
++ ADDED PORTAL IN GOT (drop iron sword in fire)
++ Added Kitra Juvain (non-canon jhattar) with her legendary quest
++ Added Beric Dondarrion
++ Added Craster Wifes
++ Added Ghiscar pyramids
++ Added Golden Company with its structures, mobs, content
++ Added Kingsguard
++ Added Summer Islands' waypoints
++ Added Thenn Smiths
++ Added Thenn speechbanks
++ Added Yi Ti Bombardier
++ Added Yi Ti Emperor's legendary quest
++ Added door to Craster's Keep
++ Added more fixed structures for Yi Ti, Sothoryos, Summer Islands & Ulthos
++ Added spruce forests
+* Renamed Yi Ti Emperor into Bu Gai
+* Improved Yi Ti names
+* Improved Yi Ti, Jogos Nhai, Dothraki Speechbanks
+* Improved 5 Forts' walls and gates
+* Improved Asshai staffs' whitelists
+* Improved Dragon's Texture
+* Improved Legendary Mobs stats
+* Improved biomes: Long Summer, Merncenary, Neck, North Barrows, Riverlands Hills, Ghiscar Colony
+* Improved Sothoryos road route
+* Improved Yi Ti Wasteland biome
+* Improved all forest biomes' appearance
+* Improved barrel functions
+* Improved fixed ghiscar towns
+* Improved human's ai
+* Improved map
+* Improved mob stats
+* Improved structure names (rus)
+* Improved trapdoor mechanic [COREMOD] (1.9+)
+* Improved waypoints desc (only rus)
+* Improved wildling weapon textures
+* Optimized 5 Forts of Yi Ti
+* Optimized Map menu (eats less RAM)
+* Optimized all forest biomes
+* Fixed Legendary Mobs AI
+* Fixed Legendary Mobs spawning
+* Fixed Qarth desert
+* Fixed crash with armor stand
+* Fixed trader speechbanks
+
+>>BUILD 20.08.12
++ ADDED THE WALL
++ ADDED MOUNT FUNCTIONS TO MAMMOTHS AND ELEPHANTS (tame with wheat)
++ Added 3 inhabited Night's Watch castles
++ Added Walruses (breeding with fish)
++ Added Wooly Rhinos (rideable)
++ Added invasion horns (can be find Creative Inventory & Captains' GUI)
++ Added more fixed structures in Essos
++ Added more invasions
++ Added new conquest zones
++ Added sub-faction Thenn with its content, mobs, structures
++ Added sub-faction: North Hillmen with its content, mobs, structures
+* Fixed Yi Ti emperor spawning
+* Fixed bug with waypoint "Debug" (lol)
+* Fixed crash with Asshai Staffs
+* Fixed crash with bug (butterfly in Qohor Forest)
+* Fixed wildling rendering
+* Improved 2 prostitute skins
+* Improved Asshai skins
+* Improved Asshai Staffs' "whitelist" and mechanics
+* Improved Cold Coast
+* Improved Cotter Pyke, Jon Snow, Jeor Mormont & Denys Mallister spawning (in castles near waypoints)
+* Improved Daenerys & Jorah spawning
+* Improved Direwolves (breeding with fish)
+* Improved Giants AI
+* Improved Mammoths and Elephants attack
+* Improved Snow Bears (breeding with fish)
+* Improved Yi Ti biome
+* Improved Yi Ti skins
+* Improved White Walker spawning
+* Improved Gift spawning
+* Improved map (wrong pixels)
+* Improved prices (gold, silver, valyrian steel raised)
+* Improved Essos mobs spawning
+
+>>BUILD 20.08.02
++ Added Asshai Alchemists (travelling traders)
++ Added Asshai Archmag's Staff
++ Added Asshai structures
++ Added City of Asshai
++ Added Crownlands Alchemists
++ Added Maesters (spawn in all westeros castles)
++ Added Qarth Warlock
++ Added Yunkai Guard
++ Added craft to the pipe and pouches
++ Added event: Reach soldiers defend Arbor plantations
++ Added milk of the poppy
++ Added mini-boss Asshai Archmag
++ Added new alcohol drinks (Sambuca, Brandy, Whisky)
+* FIxed swan render
+* Fixed Asshai speechbanks
+* Fixed Asshai strscan
+* Fixed Sothoryos biomes
+* Fixed Summer Islands mobs and structures
+* Fixed armor models
+* Fixed asshai flower spawning
+* Fixed asshai forts
+* Fixed barrow wights
+* Fixed cargocart GUI
+* Fixed chest contents
+* Fixed doors in Gregos Clegane's Keep
+* Fixed farmers' and farmhands' speechbanks
+* Fixed fixed structures
+* Fixed legendary item and armor unsmelting
+* Fixed mammoths and elephants habits
+* Fixed qarth town spawning
+* Fixed recipes
+* Fixed smithing
+* Fixed spear render
+* Fixed trade entries
+* Fixed unsmeltery
+* Fixed untranslated labels in factions gui
+* Fixed crash with Sothoryos Pyramid
+* Fixed crash with cargocart (lava & fire damage)
+* Fixed crash with cargocart spawning
+* Improved Batterfly spawning (different types for different biomes)
+* Improved Horse stats (best horses live in the Dothraki Sea(
+* Improved Mod loading
+* Improved UCP
+* Improved ambience in Barrows
+* Improved dragon flight
+* Improved fixed castles
+* Improved legendary weapon effects & materials
+* Improved recipes
+* Improved tobacco and plantain spawning
+* Improved tobho mott smithy
+* Improved translation (ru, en)
+* Improved village generator
+* Optimized Valyria loading
+* Optimized events
+* Optimized loading
+* Optimized mob rendering
+* Optimized terrain loading
+
+>>BUILD 20.07.10
++ Added faction Ibben, with its content, mobs, structures
++ Added faction Summer Islands, with its content, mobs, structures
++ Added 300+ fixed structures (villages, castles, towns, ruins and towers) on most waypoints
++ Added Beric Dondarrion's Sword
++ Added Targaryen Armor
++ Added Kingsguard Armor (gold/black, choose in config)
++ Added Dothraki quarrels
++ Added Blackfyre armor set
++ Added silver brooch of the hand of the King
++ Added Config for fast quests and black guard armor
++ Added cargocart
++ Added wheel
++ Added ethanol (lol)
+* Renamed Valyria Freehold armor set into Targaryen armor set
+* Optimized Sothoryos biomes (-23% of lags)
+* Optimized Mod loading (-18% of total time)
+* Optimized Mod size (-5% of size)
+* Cleared unused assets
+* Improved location of Renly Baratheon and Loras Tyrell
+* Improved banner textures
+* Improved Loras Tyrell
+* Improved speechbanks
+* Improved item, block, faction codenames
+* Improved Faction/Pledge mechanic
+* Improved russian, english, chinese translations
+* Improved chest contents and loot
+* Improved biomes
+* Improved Dawn sword (glowing)
+* Improved North trade entries
+* Improved North chest contents
+* Fixed bug with banner names and textures
+* Fixed bug with name banks
+* Fixed bug with barns in Westeros
+* Fixed bug with Gift villages
+* Fixed bug with Gift mobs
+* Fixed bug with scrap traders
+* Fixed bug with crafting
+* Fixed bug with town generation
+* Upgraded UCP (loading)
+* Upgraded UCP (modinfo)
+* Upgraded UCP (render)
+* Upgraded UCP (databases)
+* Upgraded UCP (village generator)
+* Upgraded UCP (dimensions)
+* Upgraded UCP (config)
+* Upgraded UCP (banners)
+* Upgraded UCP (F3 infoscreen)
+- Removed Oberyn's House
+- Removed mobs "renegade"
+
+>>>>>>>>>>>>>>>>>>>
+>>>>BETA-BUILDS>>>>
+>>>>>>>>>>>>>>>>>>>
+
+>>BUILD 20.06.16
++ Added frost hood after walkers' and wights' attack
+* Optimized farmer's AI (-14% of lags on servers!)
+* Improved targaryen shield
+* Fixed bug with faction ranks
+* Fixed bug with UCP (coremod)
+* Fixed bug with UCP (slow horses and bugged spiders)
+* Fixed bug with UCP (factions)
+* Fixed bug with UCP (fences)
+* Fixed crash with UCP (farmers)
+
+>>BUILD 20.06.15
++ UCP released
++ Added Northern Lights (appear with 50% chance during the night to north of wp "Three-eyed Raven")
++ Added Yohn Royce (spawns at wp Runestone)
++ Added Hodor (spawns at wp Winterfell)
++ Added Davos Seaworth (spawns at wp Dragonstone with Stannis)
++ Added Joffrey Baratheon (spawns at wp King's Landing with Sandor)
++ Added Bronze Yohn armor set
++ Added Brooch of the Hand of the King
++ Added Skirling pass
++ Added essos forests
+* Improved map
+* Improved Tarth biome
+* Improved Jon Snow armor
+* Improved Jon Snow texture
+* Improved Jeor mormont texture
+* Improved Cotter Pyke texture
+* Improved Denys Mallister texture
+* Improved Jon Snow's AI
+* Improved Craster's texture
+* Improved Giants names and speech
+* Improved Dragonstone textures
+* Improved Yi Ti textures
+* Improved Chinese and Russian translations
+* Improved Dorn cities
+* Fixed bug with Scrap Traders' trade entries
+* Fixed bug with Scrap Traders' spawning
+* Fixed bug with Asshai forts
+* Fixed bug with Truth/Lementation textures
+* Fixed bug with renders
+* Fixed bug with Sothoryos Chieftain
+* Fixed bug with Lhazar Villages
+* Fixed bug with Hardhome
+* Fixed bug with Barrows content
+* Fixed bug with Stone coast structures
+* Fixed bug with Yi Ti spawning
+* Fixed bug with all Essos bazaar content
+* Fixed bug with all Essos traders' content
+- Removed Lhazar Warrior
+- Removed Lhazar Banner Bearer
+
+>>BUILD 20.05.25
++ Added Jeor Mormont
++ Added Jon Snow and his legendary quest
++ Added Cotter Pyke
++ Added Denys Mallister
+* Improved Petyr Baelish (now it's possible to buy Petyr's dagger)
+* Improved Gregor Clegane
+* Improved Oberyn Martell
+* Improved Sandor Clegane
+* Improved Night King
+* Improved White Walker's mechanics
+* Improved biome Always Winter
+* Improved Night's Watch hiring
+* Improved Night's Watch spawning
+* Improved White Walkers spawning
+* Improved code structure
+* Fixed bug with ice brick
+* Fixed bug with Craster
+* Fixed bug with MQ GUI
+* Fixed legendary mob size
+* Fixed bug with MQ unicode
+- Removed Night's Watch Captains
+
+>>BUILD 20.05.22
++ Added Wildling archer
++ Added Polar Bear
++ Added Emperor of Yi Ti
++ Added Katana of Yi Ti Emperor
++ Returned walkers' weapons
++ Added Shadowcat
+* Improved Frostfangs
+* Improved code and fixed bugs
+* Improved Norvos Guards
+* Improved Dragonstone, Asshai textures
+* Improved Targaryen banner
+* Improved manticore models
+* Improved Russian, English, Chinese translations
+* Improved mob spawning
+* Improved Direwolfs' models
+- Removed Sharks
+- Removed Wildling warriors
+
+>>BUILD 20.05.06
++ Added manticores
++ Added 4 biomes
+* Fixed bugs with Dothraki and Jogos structures
+* Fixed bugs with Yi Ti textures
+* Translation improvements
+* Improved Qarth soldiers
+* Optimization
+* Improved shields' textures
+
+>>BUILD 20.05.02
++ Added Chinese translation (中文翻譯!)
++ Added Oberyn Martell speechbanks
+* Improved world map (rivers)
+* Improved Westeros armor textures
+* Improved Asshai textures
+* Improved shields
+* Fixed sharks
+* Improved Russian and English translations
+* Fixed wilding structures
+
+>>BUILD 20.04.29
++ Added 1 road and 5 waypoints
++ Added shark
+* Fixed Crafting tables on global servers
+* Fixed Invasions
+* Fixed Renly Baratheon quests's size
+* Fixed asshai prices
+* Fixed giants' weapon
+* Fixed wilding chieftain's GUI
+* Fixed wilding unit prices
+* Improved map
+* Improved translations
+
+>>BUILD 20.04.28
++ Added 3 waypoints
+* Fixed Asshai Shadowbinders' Staffs
+* Fixed Mossovy spawning
+* Fixed fast travelling
+* Greatly improved GoT Map
+* Improved Asshai Shadowbinders' AI
+* Improved Yi Ti textures and translations
+- Removed bugged achievements. Now servers running GoT Mod should not crash.
+
+>>BUILD 20.04.22
+* Fixed Asshai staffs
+* Fixed elephants and mammoths
+* Fixed invasions
+* Fixed Yi Ti textures
+
+>>BUILD 20.04.20
++ Added Asshai Shadowbinders
+* Fixed Gregor Clegane
+* Fixed too large quests
+* Improved Asshai textures & ranks
+* Improved Ulthos biome
+* Improved Yi Ti textures
+* Improved translations
+
+>>BUILD 20.04.19
++ Added Craster, Stannis Baratheon and Renly Baratheon with their Quests
++ Added Dothraki faction with mobs, structures
++ Added Jogos Nhai faction with mobs, structures
++ Added Mossovy Armour Set (no Helmet)
++ Added Mossovy, Jogos Nhai and Dothraki speechbanks
++ Added Silver Sword
++ Added demon hunters of Mossovy
++ Added elephants
++ Added mammoths
++ Added slavers for Volantis, Myr, Lys, Tyrosh, Ghiscar
++ Added slaves for Volantis, Myr, Lys, Tyrosh, Ghiscar
++ Added werewolves of Mossovy
++ New banners
+* Compatibility with the Sauron Extended and Witchery Mod
+* Fixed minor bugs
+* Improved map and biomes
+* Optimization
+* Translation improvements
+- Naath
+
+>>BUILD 20.04.14
++ Added Asshai biome
++ Added Daenerys Targaryen (waypoint Pentos) with her miniquest.
++ Added Night King's table
++ Added Oberyn's House
++ Added Sons of the Harpy
+* Fixed alignment zones
+* Fixed mountains
+* Fixed spawning
+* Improved Land of the Shadow biome
+
+>>BUILD 20.04.10
++ Added 30 waypoints with their description (only RUS now)
++ Added Conquest for all the Free Cities and Westeros Regions (50+)
++ Added Ghiscar Fighting Pit
++ Added Ghiscar road
++ Added Invasions for all the Free Cities and Westeros Regions (50+)
+* Fixed bugs with Ironborn speechbanks
+* Fixed bugs with North structures
+* Improved English Translation (powered by native speaker)
+* Improved map
+
+>>BUILD 20.04.03 (10.1)
+No info
+
+>>BUILD 20.03.31 (10.0)
+No info
+
+>>BUILD 20.03.26 (9.0)
+No info
+
+>>BUILD 20.03.18 (8.5)
+No info
+
+>>BUILD 20.03.14 (8.4)
+No info
+
+>>BUILD 20.03.08 (8.3)
+No info
+
+>>BUILD 20.03.04 (8.2)
+No info
+
+>>BUILD 20.03.01 (8.1)
+No info
+
+>>BUILD 20.02.26 (8.0)
+No info
+
+>>BUILD 20.02.24 (7.4)
+No info
+
+>>BUILD 20.02.23 (7.3)
+No info
+
+>>BUILD 20.02.18 (7.2)
+No info
+
+>>BUILD 20.02.14 (7.1)
+No info
+
+>>BUILD 20.02.09 (7.0)
+No info
+
+>>BUILD 20.01.26 (6.3)
+No info
+
+>>BUILD 20.01.16 (6.0)
+No info
+
+>>BUILD 20.01.07 (5.1)
+No info
+
+>>BUILD 20.01.25 (5.0)
+No info
+
+>>>>>>>>>>>>>>>>>>>>
+>>>>ALPHA-BUILDS>>>>
+>>>>>>>>>>>>>>>>>>>>
+
+>>BUILD 19.12.12 (4.4)
+No info
+
+>>BUILD 19.09.05 (4.3)
+No info
+
+>>BUILD 19.08.28 (4.2.1)
+No info
+
+>>BUILD 19.08.27 (4.2)
+No info
+
+>>BUILD 19.08.25 (4.1)
+No info
+
+>>BUILD 19.08.14 (4.0)
+No info
+
+>>BUILD 19.08.14 (3.5.1)
+No info
+
+>>BUILD 19.08.09 (3.5)
+No info
+
+>>BUILD 19.08.08-2 (3.4)
+No info
+
+>>BUILD 19.08.08-1 (3.3)
+No info
+
+>>BUILD 19.08.07-3 (3.2.2)
+No info
+
+>>BUILD 19.08.07-2 (3.2.1)
+No info
+
+>>BUILD 19.08.07-1 (3.2)
+No info
+
+>>BUILD 19.08.06-4 (3.1.3)
+No info
+
+>>BUILD 19.08.06-3 (3.1.2)
+No info
+
+>>BUILD 19.08.06-2 (3.1.1)
+No info
+
+>>BUILD 19.08.06-1 (3.1)
+No info
+
+>>BUILD 19.08.05 (3.0)
+No info
+
+>>BUILD 19.08.04-2 (2.9)
+No info
+
+>>BUILD 19.08.04-1 (2.8)
+No info
+
+>>BUILD 19.08.03 (2.7)
+No info
+
+>>BUILD 19.08.02 (2.6)
+No info
+
+>>BUILD 19.08.01 (2.5)
+No info
+
+>>BUILD 19.07.10 (2.4)
+No info
+
+>>BUILD 19.07.08 (2.3)
+No info
+
+>>BUILD 19.06.28 (2.2)
+No info
+
+>>BUILD 19.06.14 (2.1)
+No info
+
+>>BUILD 19.06.05 (2.0)
+No info
+
+>>BUILD 19.06.01 (1.9)
+No info
+
+>>BUILD 19.05.25 (1.8)
+No info
+
+>>BUILD 19.05.23 (1.7)
+No info
+
+>>BUILD 19.05.20 (1.6)
+No info
+
+>>BUILD 19.05.18 (1.5)
+No info
+
+>>BUILD 19.05.15 (1.4)
+No info
+
+>>BUILD 19.05.12 (1.3)
+No info
+
+>>BUILD 19.05.10 (1.2)
+No info
+
+>>BUILD 19.05.08 (1.1)
+No info
+
+>>BUILD 19.05.05 (1.0)
+No info
